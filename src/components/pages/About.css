@@ -1,0 +1,81 @@
+.header{
+    font-size:30px;
+    padding:1rem;
+    padding-bottom: 0.5rem;
+    font-family: 'Spartan', sans-serif;
+    font-weight:800;
+}
+
+.header2{
+    font-size:20px;
+    padding-top: 0.5 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Spartan', sans-serif;
+    text-align:center;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.description{
+    font-size:17px;
+    padding:0.5rem 1rem;
+    font-family: 'Spartan', sans-serif;
+    text-align:left;
+    max-width:810px;
+    margin: auto;
+    line-height:1.5;
+}
+
+.description1{
+    font-size:17px;
+    padding:0.5rem 1rem;
+    font-family: 'Spartan', sans-serif;
+    text-align:left;
+    max-width:810px;
+    margin: auto;  
+    line-height:1.5;
+}
+
+.description2{
+    font-size:17px;
+    font-family: 'Spartan', sans-serif;
+    line-height:1.5;
+}
+
+.descriptionphoto{
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        max-width: 55%;
+}
+
+@media only screen and (max-width:1024px) {
+    .descriptionphoto{
+        max-width:95%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .about{
+        text-align: center;
+        letter-spacing: 5px;
+    }
+
+    .header{
+        font-size: 20px
+    }
+
+    .header2{
+        font-size: 16px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .description1{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,175 @@
+.projheader{
+    font-size:30px;
+    padding:1rem;
+    padding-bottom: 0.5rem;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.projectphoto {
+    float: left;
+    width: 50%;
+    height: 600px; 
+    filter: grayscale(100%);
+}
+
+.act{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.projdesc{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.font {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.font2 {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.column3{
+    float: right;
+    width:50%;
+    height: 600px;
+    background-color: #F5F5F5;
+}
+
+.column4{
+    float: left;
+    width: 50%;
+    height: 600px;
+    background: #F5F5F5;
+    height: 675px;
+}
+
+.neuro{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 35%;
+}
+
+.neurodesc{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.neurophoto {
+    float: right;
+    width:50%;
+    height: 675px;
+}
+
+.container {
+    height: 1275px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .projects {
+        letter-spacing: 3px;
+        font-size: 80px;
+    }
+
+    .projheader {
+        font-size: 20px;
+    }
+
+    .projectphoto {
+        float:none;
+        padding: 5px;
+        width: 100%;
+        height: 70%;
+    }
+    .column3 {
+        float:none;
+        padding: 5px;
+        width: 100%;
+        height: 70%;
+        padding-bottom: 10%;
+    }
+    
+    .act {
+        padding-top:10%;
+        line-height:0.8;
+    }
+
+    .projdesc{
+        font-size: 18px;
+    }
+
+    .font{
+        font-size: 18px;
+    }
+
+    .font2{
+        font-size:18px;
+    }
+
+    .neurophoto {
+        float:none;
+        padding: 5px;
+        width: 100%;
+        height: 50%;
+    }
+    .column4 {
+        float:none;
+        padding: 5px;
+        width: 100%;
+        height: 70%;
+    }
+    .neuro {
+        padding-top: 10%;
+    }
+    .neurodesc {
+        padding-bottom: 10%;
+        font-size: 18px;
+        margin-right: 5%;
+    }
+
+    .container{
+        height:auto;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container { display:flex; flex-flow: column; }
+    .projectphoto { order:1; }
+    .column3 { order:2; }
+    .neurophoto { order:3; }
+    .column4 { order:4}
+}
