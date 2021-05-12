@@ -1,4 +1,5 @@
 {
+  "homepage": "http://jodiezhuu.github.io/personal-website",
   "name": "react-website-yt-1",
   "version": "0.1.0",
   "private": true,
@@ -43,6 +44,5 @@
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "homepage": "https://jodiezhuu.github.io/personal-website"
+  "license": "ISC"
 }

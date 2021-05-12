@@ -9,6 +9,7 @@ export default function Experience() {
         <h1 className='experience'>EXPERIENCE</h1>
         <h1 className='header3'>INFORMAL RESUME</h1>
         <h2 className='header4'>Here's a list of my previous summer internships, programs, etc.</h2>
+        
     <div className="format">
         <div className='column1'>
             <h3 className='lawfirm'>JonesCo. IP Law Firm</h3>

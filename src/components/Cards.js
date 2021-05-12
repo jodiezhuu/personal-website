@@ -10,28 +10,22 @@ function Cards() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem 
-                        src="images/hobbies.jpg"
+                        src={process.env.PUBLIC_URL+"/images/hobbies.jpg"}
                         text="Day in my life!"
                         label="Hobbies"
                         path="/About"
                         />
                         <CardItem 
-                        src="images/IMG-2.jpg"
+                        src={process.env.PUBLIC_URL+"/images/IMG-2.jpg"}
                         text="Financial District Internship"
                         label="Work"
                         path="/Experience"
                         />
                         <CardItem 
-                        src="images/IMG_6017.jpg"
+                        src={process.env.PUBLIC_URL+"/images/IMG_6017.jpg"}
                         text="The Act4Impact Project"
                         label="Social Issues"
                         path="/Projects"
-                        />
-                        <CardItem 
-                        src="images/IMG_6337.jpg"
-                        text="Get in touch with me!"
-                        label="Network"
-                        path="/Contact"
                         />
                     </ul>
                 </div>
