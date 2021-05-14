@@ -12,10 +12,10 @@ export default function Projects() {
         <img className='projectphoto' src={process.env.PUBLIC_URL+"/images/projectcambodia.jpg"} alt="ProjectPhoto"></img>
         <div className='column3'>
             <h3 className='act'>Act 4 Impact</h3>
-            <p className='projdesc'>Since January 2018, I have co-founded and co-run a non-profit organization, Act4Impact, that dedicates itself in supporting smaller charities. In less than two years, this club has raised over $2000 in funds to support a local homeless shelter and the SALEKEMPRAM elementary school in Cambodia. I am extremely humbled and enthusiastic to carry Act4Impact with me in the future!</p>
+            <p className='projdesc'>Since January 2018, I have co-founded and co-run a non-profit organization, Act4Impact, that dedicates itself in supporting smaller charities. In less than two years, this club has raised over $2000 in funds to support a local homeless shelter and SALEKEMPRAM Primary S chool in Cambodia. I am extremely humbled and enthusiastic to carry Act4Impact with me in the future!</p>
             <p className='font'>Since 2018, Act4Impact has:</p>
                 <li className='font2'>Donated $400 to Homesfirst, a homeless shelter for women</li>
-                <li className='font2'>Donated over $1000 worth of school supplies to SALEKEMPRAM Elementary School</li>
+                <li className='font2'>Donated over $1000 worth of school supplies to SALEKEMPRAM Primary School</li>
                 <li className='font2'>Donated and spread awareness about the Black Lives Matter movement</li>
                 <li className='font2'>Donated masks to Sunnybrook Hospital</li>
         </div>
