@@ -36,7 +36,7 @@ function Navbar() {
                 </div>
                 <ul className={click ? 'nav-menu active':'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/personal-website' className='nav-links' onClick={closeMobileMenu}>
                             Home <i className="i.fab.fa-typo3"></i>  
                         </Link>
                         <div className='menu-icon' onClick={handleClick}>
