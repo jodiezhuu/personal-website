@@ -15,10 +15,10 @@ function App() {
      <Navbar />
      <HashRouter>
        <Route path='/personal-website' exact component={Home} />
-       <Route path='/About' component={About} />
-       <Route path='/Experience' component={Experience} />
-       <Route path='/Projects' component={Projects} />
-       <Route path='/Resume' component={Resume} />
+       <Route path='/personal-website/About' component={About} />
+       <Route path='/personal-website/Experience' component={Experience} />
+       <Route path='/personal-website/Projects' component={Projects} />
+       <Route path='/personal-website/Resume' component={Resume} />
      </HashRouter>
      </Router>
     </>
