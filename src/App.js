@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, HashRouter} from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
@@ -13,13 +13,13 @@ function App() {
     <>
     <Router>
      <Navbar />
-     <Switch>
+     <HashRouter>
        <Route path='/personal-website' exact component={Home} />
        <Route path='/About' component={About} />
        <Route path='/Experience' component={Experience} />
        <Route path='/Projects' component={Projects} />
        <Route path='/Resume' component={Resume} />
-     </Switch>
+     </HashRouter>
      </Router>
     </>
   );
