@@ -93,15 +93,7 @@
         letter-spacing: 3px;
         font-size: 80px;
     }
-}
 
-@media only screen and (min-width: 1200px) {
-    .content__blog__container {
-      max-width: 84%;
-    }
-  }
-  
-  @media only screen and (max-width: 1024px) {
     .column1 {
         float:none;
         margin-left: 3%;
@@ -115,9 +107,7 @@
     .format {
         height:auto;
     }
-  }
 
-  @media only screen and (max-width: 1024px) {
     .column2 {
         float:none;
         margin-left: 3%;
@@ -127,5 +117,12 @@
         width: 98%;
         padding-bottom: 10%;
         height: 70%;
+    }
+  }
+
+
+@media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      max-width: 84%;
     }
   }
