@@ -13,7 +13,7 @@ function HeroSection() {
                 <Button className='btns' 
                 buttonStyle='btn--outline'
                 buttonSize='btn--large'
-                onClick={()=>window.open('https://drive.google.com/file/d/1z3xazSLaVVBP0YyLCHjU0jv6gGyvlZRe/view?usp=sharing')}
+                onClick={()=>window.open('https://drive.google.com/file/d/105wK4PjWHcSS8UTUcDKrQNQg8r6sCklI/view?usp=sharing')}
                 >
                     RESUME
                 </Button>

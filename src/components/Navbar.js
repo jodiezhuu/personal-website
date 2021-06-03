@@ -59,7 +59,7 @@ function Navbar() {
                         </Link>
                     </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline' onClick={()=>window.open('https://drive.google.com/file/d/1z3xazSLaVVBP0YyLCHjU0jv6gGyvlZRe/view?usp=sharing')}>RESUME</Button>}
+                {button && <Button buttonStyle='btn--outline' onClick={()=>window.open('https://drive.google.com/file/d/105wK4PjWHcSS8UTUcDKrQNQg8r6sCklI/view?usp=sharing')}>RESUME</Button>}
             </div>
         </nav>
         </>
