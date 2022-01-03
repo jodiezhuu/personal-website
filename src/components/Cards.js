@@ -11,7 +11,7 @@ function Cards() {
                     <ul className="cards__items">
                         <CardItem 
                         src={process.env.PUBLIC_URL+"/images/hobbies.jpg"}
-                        text="Day in my life!"
+                        text="About me"
                         label="Hobbies"
                         path="/About"
                         />
