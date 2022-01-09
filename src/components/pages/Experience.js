@@ -15,7 +15,7 @@ export default function Experience() {
         <h3 className='lawfirm'>JonesCo. IP Law Firm</h3>
         <h4 className='jobtitle'>Office Clerk</h4>
         <h5 className='datetime'>Toronto, ON</h5>
-        <h5 className='datetime'>July 2019-September 2019</h5>
+        <h5 className='datetime'>July 2020-September 2020</h5>
             <li className='lawfirmdesc'>Inputted contact information of international lawyers using Microsoft OneNote to increase networking efficiency in the firm;</li>
             <li className='lawfirmdesc'>Used business cards to build a personal profile of 500+ lawyers into Microsoft Sharepoint and Outlook;</li>
             <li className='lawfirmdesc'>Organized 900+ printed emails involving patents, licensing, trademark law, franchising, and trade secret projects into alphabetical and chronological order.</li>
